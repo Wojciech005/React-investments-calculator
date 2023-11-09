@@ -12,6 +12,7 @@ body {
   background: radial-gradient(#303b37, #1a1f1d);
   color: #e1eeeb;
   min-height: 100vh;
+  padding: 20px;
 }
 
 #header {
@@ -86,4 +87,11 @@ body {
 
 .center {
   text-align: center;
+}
+
+
+@media (max-width: 768px) { 
+  .table-wrap {
+    overflow-x: scroll;
+  }
 }
