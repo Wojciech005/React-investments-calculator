@@ -29,7 +29,9 @@ function App() {
     <Header />
     <UserInput userInput={userInput} onChange={handleChange}/>
     {!inputIsValid && <p className="center">Please enter a valid data.</p>}
+    <div className="table-wrap">
     { inputIsValid && <Results input={userInput}/>}
+    </div>
     </>
   )
 }
